@@ -47,7 +47,7 @@ if (userNumber < 0) {
 }
 ```
 
-```
+```javascript
 var num = Number(prompt("Выбери число", "0"));
 
 if (num < 10)
