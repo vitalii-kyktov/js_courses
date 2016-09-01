@@ -142,9 +142,14 @@ false === 0;
 
 ## Материалы по теме
 
- Выразительный JavaScript (Величины, типы и операторы): https://habrahabr.ru/post/240223/  
- Учебник JS (преобразование типов примитивных величин): https://learn.javascript.ru/types-conversion  
- Скринкаст JavaScript Джедай (видео 1 - 9): https://www.youtube.com/watch?v=H6G63NKRSi8&list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem
+1. Выразительный JavaScript (Величины, типы и операторы): https://habrahabr.ru/post/240223/
+2. w3schools (Introduction - Comments) http://www.w3schools.com/js/default.asp
+2. W3schools (JavaScript Type Conversion) http://www.w3schools.com/jsref/jsref_type_conversion.asp
+2. Учебник JS (шесть типов данных, typeof): http://learn.javascript.ru/types-intro
+2. Учебник JS (преобразование типов примитивных величин): https://learn.javascript.ru/types-conversion  
+2. Учебник JS (основные операторы): http://learn.javascript.ru/operators
+2. Учебник JS (операторы сравнения и логические значения): http://learn.javascript.ru/comparison
+3. Скринкаст JavaScript Джедай (видео 1 - 9): https://www.youtube.com/watch?v=H6G63NKRSi8&list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem
  
  
 
