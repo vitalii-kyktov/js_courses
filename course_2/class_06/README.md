@@ -1,8 +1,8 @@
-#Обьекты#
+#Объекты#
 
 ## Теория
 
-### Обьявление переменной, содержащей обьект ###
+### Обьявление переменной, содержащей объект ###
 ```javascript
 var myObject = {}; //empty object
 var car = { name: "audi", color: "black", maxSpeed: 100500 };
@@ -16,7 +16,7 @@ var user = {
 }
 ```
 
-### Обращение к свойствам и методам обьекта ###
+### Обращение к свойствам и методам объекта ###
 ```javascript
 var user = {
     firstName: 'John',
@@ -34,7 +34,7 @@ user.sayHello();
 console.log(user.car);  // undefined
 ```
 
-### Присваивание значений свойствам обьекта ###
+### Присваивание значений свойствам объекта ###
 
 ```javascript
 var user = {}
@@ -52,7 +52,7 @@ var car = { name: "audi", color: "black", maxSpeed: 100500 };
 delete car.color;
 ```
 
-### Проверка наличия свойства в обьекте ###
+### Проверка наличия свойства в объекте ###
 ```javascript
 var car = { name: "audi", color: "black", maxSpeed: 100500 };
 
@@ -60,7 +60,7 @@ console.log('age' in car); // false
 console.log('name' in car); // true
 ```
 
-### Получение списка свойст обьекта ###
+### Получение списка свойст объекта ###
 ```javascript
 var car = { name: "audi", color: "black", maxSpeed: 100500 };
 
@@ -81,7 +81,7 @@ var user = {
 user.introduce();
 ```
 
-### Конструкторы обьектов ###
+### Конструкторы объектов ###
 ```javascript
 
 var Car = function(name, color, maxSpeed) {
