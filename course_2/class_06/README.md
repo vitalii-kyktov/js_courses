@@ -84,18 +84,16 @@ user.introduce();
 ### Конструкторы объектов ###
 ```javascript
 
-var Car = function(name, color, maxSpeed) {
-  return { 
-    name: name,
-    color: color,
-    maxSpeed: maxSpeed,
-    drive: function() {
+var Car = function(name, color, maxSpeed) { 
+    this.name = name;
+    this.color = color;
+    this.maxSpeed = maxSpeed,
+    this.drive = function() {
       console.log(`${color} ${name} is flying with speed ${maxSpeed} km\\h`)  
-    },
-    reflect: function() {
+    };
+    this.reflect = function() {
       console.log('I have following props:', Object.keys(this).toString());  
-    }
-  }
+    };
 }
 
 var car1 = new Car('audi', 'black', 250);
